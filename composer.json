@@ -1,0 +1,22 @@
+{
+    "name": "thai/design-pattern",
+    "description": "design pattern",
+    "authors": [
+        {
+            "name": "thainguyen1612",
+            "email": "zxtinkerxz1@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "util/helper.php"
+        ]
+    },
+    "require": {},
+    "require-dev": {
+        "symfony/var-dumper": "^5.1"
+    }
+}
